@@ -1,6 +1,6 @@
 a = 1
 b = 2
-c = b
+c = b # b is pointing to 2
 b = a
 a = c
 
