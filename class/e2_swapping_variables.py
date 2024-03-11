@@ -4,7 +4,7 @@ c = b
 b = a
 a = c
 
-print (a)
-print (b)
+print(a)
+print(b)
 
 
