@@ -14,3 +14,18 @@ Write a program that displays the answers for the first 100 numbers in the Fizz 
 displayed on its own line.
 
 """
+
+
+def fizz_buzz(n):
+    if n % 3 == 0 and n % 5 == 0:
+        return "fizzbuzz"
+    elif n % 3 == 0:
+        return "fizz"
+    elif n % 5 == 0:
+        return "buzz"
+    else:
+        return str(n)
+
+
+for i in range(1, 101):
+    print(fizz_buzz(i))
